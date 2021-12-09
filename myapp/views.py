@@ -60,7 +60,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 import os
 import pickle
-from sklearn.externals import joblib
+import joblib
+# from sklearn.externals import joblib
 
 import whois
 import datetime
